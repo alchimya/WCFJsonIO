@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WCFJsonIO.Services.Contracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WCFJsonIO.Services.Contracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:60312/ServiceJSON.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WCFJsonIO.Entities" />
+  <xs:import schemaLocation="http://localhost:60312/ServiceJSON.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="ServiceJSONInput">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WCFJsonIO.Entities" minOccurs="0" name="Account" nillable="true" type="q1:Account" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WCFJsonIO.Entities" minOccurs="0" name="Customer" nillable="true" type="q2:Customer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceJSONInput" nillable="true" type="tns:ServiceJSONInput" />
+  <xs:complexType name="ServiceJSONResult">
+    <xs:sequence>
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WCFJsonIO.Entities" minOccurs="0" name="Customer" nillable="true" type="q3:Customer" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="Exception" nillable="true" type="q4:Exception" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServiceJSONResult" nillable="true" type="tns:ServiceJSONResult" />
+</xs:schema>

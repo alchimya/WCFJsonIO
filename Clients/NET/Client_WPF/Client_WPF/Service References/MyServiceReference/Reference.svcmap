@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="50b2c51a-ad1a-426e-8a7f-3969b7db8523" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60312/ServiceJSON.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceJSON.xsd" MetadataType="Schema" ID="4ffd5da8-5f5c-4006-8e4c-ae43cfa7a7c2" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServiceJSON.wsdl" MetadataType="Wsdl" ID="33fbb6df-22e0-4166-87a4-97eec5791b9d" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?wsdl" />
+    <MetadataFile FileName="ServiceJSON1.xsd" MetadataType="Schema" ID="1f88fdda-e8b9-4443-a64f-cff283f31980" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceJSON2.xsd" MetadataType="Schema" ID="6ffea65c-6f04-41e5-afb6-da79c8dbea58" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceJSON3.xsd" MetadataType="Schema" ID="e9eca062-1ad5-4e61-a311-3030645b7c6b" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?xsd=xsd4" />
+    <MetadataFile FileName="ServiceJSON.disco" MetadataType="Disco" ID="8bc3a48f-4f8a-46d9-a125-7ad57ab6631c" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?disco" />
+    <MetadataFile FileName="ServiceJSON4.xsd" MetadataType="Schema" ID="8700d58c-1529-434b-94c6-5b5e3300a579" SourceId="1" SourceUrl="http://localhost:60312/ServiceJSON.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

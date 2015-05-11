@@ -1,0 +1,12 @@
+﻿<Window x:Class="Client_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <Button Content="Invoke" HorizontalAlignment="Left" Margin="28,77,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="Button_Click"/>
+        <Label Content="Service address" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.44,0.291" Width="167"/>
+        <TextBox x:Name="wcfAddress" HorizontalAlignment="Left" Height="23" Margin="28,39,0,0" TextWrapping="Wrap" Text="http://localhost:60312/ServiceJSON.svc" VerticalAlignment="Top" Width="435" />
+
+    </Grid>
+</Window>
