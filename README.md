@@ -58,7 +58,7 @@ Tests are implemented with NUnit framework.
 <br/>
 a) Call_MyMethod_With_No_Input_Data: it tests if MyMethod respond with an excpetion if input parameter is null
 <br/>
-b) Call_MyMethod_With_Input_Data: it tests if MyMethod with a valid input data will respond with a null exception, a not null message and with a customer equal to the input customer
+b) Call_MyMethod_With_Input_Data: it tests if MyMethod called with a valid input data, will respond with a null exception, a not null message and with a customer equal to the input customer sent.
 	
 
 
