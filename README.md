@@ -3,7 +3,7 @@ A WCF (C#) project with a I/O complex JSON data
 
 #Introduction
 
-I developed this project/tutorial, to implement a WCF Service with a method (named MyMethod...it's better than HelloWorld ;-) ) with a complex input/output data (see WCFJsonIO.Services.Contracts.ServiceJSONInput and WCFJsonIO.Services.Contracts.ServiceJSONResult).
+I developed this project/tutorial, to implement a WCF Service with a method (named MyMethod...it's much better than HelloWorld ;-) ) with a complex input/output data (see WCFJsonIO.Services.Contracts.ServiceJSONInput and WCFJsonIO.Services.Contracts.ServiceJSONResult).
 <br/>
 With this tutorial I will also show you how can you call (consume) a WCF method by passing data with JSON format via $http AngularJS service (see \Clients\Javascript\Client_AngularJS) and with jQuery $.ajax method (see \Clients\Javascript\Client_jQuery).
 <br/>
